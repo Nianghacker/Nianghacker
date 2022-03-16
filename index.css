@@ -1,0 +1,173 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{ 
+    width: 100%;
+    height: 100vh;
+    background-image:  url(http://az837918.vo.msecnd.net/publishedimages/articles/1733/en-CA/images/1/free-download-this-stunning-alberta-scene-for-your-device-background-image-L-6.jpg)
+	;
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+
+}/*
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}*/
+
+
+/*.logo{
+    width: 50px;
+    cursor: pointer;
+}*/
+
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav{
+    position: absolute;
+    flex: 1;
+    text-align: right;
+	font-size: 40px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 13px;
+    display: inline-block;
+    
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col{color: white;
+    float: left;
+    width: 150%;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+p{
+    margin-top: -70px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    font-size: 22px;
+    line-height: 1.6;
+    font-weight: 600;
+    letter-spacing: 0.059em;
+    color: white;
+   
+}
+
+
+.card{
+    width: 200px;
+    height: 230px;
+    
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: cubic-bezier();
+}
+
+.cardA{
+    padding:0px 20px 0px 20px;
+    float:left ;
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/4b/5d/10/caption.jpg?w=500&h=300&s=1&cx=1005&cy=690&chk=v1_2ed86f729380ea073850);
+}
+
+.cardB{
+    padding: 0px;
+    float:left ;
+    background-image: url(https://media.routard.com/image/34/9/fb-moscou.1524349.jpg);
+}
+
+.cardC{padding: 0px 20px 0px 20px;
+    float: left;
+    background-image: url(https://www.bons-plans-voyage-floride.com/wordpress/wp-content/uploads/2019/11/que-faire-noel-floride-miami-5.jpg);
+}
+
+.cardE{
+    padding: 0px 20px 0px 20px;
+    margin-left: 150px;
+    float: left;
+    background-image: url(https://www.pressing-aquablue.com/wp-content/uploads/sites/3/2021/02/Ville-de-Paris.jpg);
+}
+.cardF{padding: 0px 20px 0px 20px;
+    float: left;
+    background-image: url(https://www.courrierinternational.com/sites/ci_master/files/styles/image_original_1280/public/assets/images/federico-beccari-ryc3svuergy-unsplash.jpg?itok=xg_Xyab9);
+}
+.card:hover{
+    transform:translate(20px,-10px);
+}
+
+footer{
+    display: block;
+    margin-top: 0px;
+    background-color:black ;
+    color:white;
+    margin-bottom: 0px;
+    height: 50%;
+}
+
+li{
+    margin: 0 0 0 5px;
+    padding: 5px 30px 5px 30px;
+    list-style: none;
+
+    
+}
+.racaille{
+    display: inline-block;
+    padding-left: 4px;
+}
+#ad,#ae{
+    margin-top: 10px;
+float: left;
+margin-left: 200px;
+
+}
+#ar{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 22px;
+    line-height: 1.6;
+    font-weight: 600;
+    letter-spacing: 0.059em;
+    color: white;
+    float: left;
+    
+}
+h4{
+    font-size: 18px;
+    color: whitesmoke;
+    margin-top: auto;
+}
+h5{
+    font-size: xx-large;
+}
